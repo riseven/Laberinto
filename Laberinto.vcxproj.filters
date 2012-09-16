@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{bb12a93b-23c8-47d5-84c2-a68f23b28794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\levels">
+      <UniqueIdentifier>{a7f039bc-9de5-4af9-907c-f97025be892b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="data\resources.xml">
+      <Filter>data</Filter>
+    </Xml>
+    <Xml Include="data\levels\level1.xml">
+      <Filter>data\levels</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseDoor.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameResources.cpp" />
+    <ClCompile Include="GraphicNode.cpp" />
+    <ClCompile Include="GroundClear.cpp" />
+    <ClCompile Include="GroundInfo.cpp" />
+    <ClCompile Include="GroundWall.cpp" />
+    <ClCompile Include="InventoryNode.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="MapNode.cpp" />
+    <ClCompile Include="MouseEvent.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayNode.cpp" />
+    <ClCompile Include="PressTile.cpp" />
+    <ClCompile Include="Teleporter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseDoor.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameResources.h" />
+    <ClInclude Include="GraphicNode.h" />
+    <ClInclude Include="GroundClear.h" />
+    <ClInclude Include="GroundInfo.h" />
+    <ClInclude Include="GroundWall.h" />
+    <ClInclude Include="InventoryNode.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="MapNode.h" />
+    <ClInclude Include="MouseEvent.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayNode.h" />
+    <ClInclude Include="PressTile.h" />
+    <ClInclude Include="Teleporter.h" />
+  </ItemGroup>
+</Project>
