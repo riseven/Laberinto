@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <section name="tiles">
+    <surface name="ground" file="graphics/ground.bmp"/>
+    <surface name="wallNoPerspective" file="graphics/wallNoPerspective.bmp"/>
+    <surface name="pressTile" file="graphics/pressTile.bmp"/>
+    <surface name="teleporter" file="graphics/teleporter.bmp"/>
+    <surface name="doorOpen" file="graphics/doorOpen.bmp"/>
+    <surface name="doorClosed" file="graphics/doorClosed.bmp"/>
+    <surface name="key" file="graphics/keyRed_map.bmp"/>
+    <surface name="keyRed" file="graphics/keyRed_map.bmp"/>
+    <surface name="keyBlue" file="graphics/keyBlue_map.bmp"/>
+    <surface name="keyYellow" file="graphics/keyYellow_map.bmp"/>
+  </section>
+  <section name="inventory">
+    <surface name="key" file="graphics/keyRed_inventory.bmp"/>
+    <surface name="keyRed" file="graphics/keyRed_inventory.bmp"/>
+    <surface name="keyBlue" file="graphics/keyBlue_inventory.bmp"/>
+    <surface name="keyYellow" file="graphics/keyYellow_inventory.bmp"/>
+    <surface name="selection" file="graphics/inventorySelection.bmp"/>
+  </section>
+  <section name="player">
+    <surface name="playerStatic" file="graphics/playerStatic.bmp"/>
+  </section>
+</resources>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+  <Ground>
+    <!--        012345678-->
+    <Row tiles="#########"/>
+    <Row tiles="#   #####"/>
+    <Row tiles="###     #"/>
+    <Row tiles="#########"/>
+  </Ground>
+  <Player x="3" y="2"/>
+  <Objects>
+    <Teleporter id="TeletransporteIzquierda" x="1" y="1" dstX="7" dstY="2"/>
+    <BaseDoor id="Puerta" x="6" y="2" state="closed" direction="vertical">
+      <Action source="Llave" action="Use" result="change"/>
+    </BaseDoor>
+    <!-- <PressTile id="Losa" x="3" y="1" target="Puerta" action="Press"/> -->
+    <Key id="Llave" x="3" y="1" tile="tiles/keyBlue" inventory="inventory/keyBlue"/>
+    <Key id="Llave2" x="2" y="1" tile="tiles/keyRed" inventory="inventory/keyRed"/>
+  </Objects>
+</Level>
